@@ -10,9 +10,12 @@
   background-position: cover;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   font-weight: 700; }
+  .main__content {
+    width: 78vw;
+    float: right; }
   .main__title {
     height: 10vh;
-    margin: 21vh 0 0 60vw;
+    margin: 35vh 0 0 40vw;
     float: right;
     background-color: #fadb44; }
     .main__title h1 {
@@ -21,7 +24,7 @@
       font-size: 6vw; }
   .main__nav {
     width: 17vw;
-    margin: 30vh 0 0 5vw;
+    margin: 65vh 0 0 5vw;
     float: left; }
     .main__nav .link {
       width: 15vw;

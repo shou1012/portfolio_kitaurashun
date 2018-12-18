@@ -1,0 +1,28 @@
+@font-face {
+	font-family: 'rounded-l';
+	src: url("fonts/rounded-l-mgenplus-2p-thin.ttf");
+}
+
+.content{
+  &__title{
+    width: 40vw;
+    height: auto;
+    margin: 20vh 18vw 0 10vw;
+    overflow: hidden;
+    h1{
+      width: calc(40vw - 315px);
+      display: inline-block;
+      font-size: 3vw;
+    }
+    img{
+      margin: auto 0;
+      float: right;
+    }
+  }
+
+  &__body{
+    font-family: "rounded-l";
+    width:  40vw;
+    margin: 3vh 18vw 0 10vw;
+  }
+}
