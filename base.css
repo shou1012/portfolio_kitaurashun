@@ -4,10 +4,11 @@
 
 .main {
   width: 100vw;
-  height: 100vh;
+  height: auto;
   background-image: url("img/bg.png");
   background-size: 100%;
   background-position: cover;
+  background-attachment: fixed;
   font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
   font-weight: 700; }
   .main__content {
@@ -25,7 +26,8 @@
   .main__nav {
     width: 17vw;
     margin: 65vh 0 0 5vw;
-    float: left; }
+    float: left;
+    position: fixed; }
     .main__nav .link {
       width: 15vw;
       display: inline-block;

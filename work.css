@@ -1,0 +1,20 @@
+.content {
+  width: 50vw;
+  margin: 20vh 18vw 0 10vw;
+  float: right; }
+
+.work__title {
+  text-align: center;
+  font-size: 2vw;
+  letter-spacing: 0.5vw;
+  margin-bottom: 5vh; }
+.work__container {
+  font-family: 'yugothic';
+  padding-bottom: 10vh;
+  border-bottom: 1px #000 solid; }
+  .work__container h2 {
+    line-height: 5em; }
+  .work__container img {
+    width: 50vw; }
+
+/*# sourceMappingURL=work.css.map */
